@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-size: 0%;
 }
 
 div {
@@ -15,7 +16,6 @@ div {
     display: inline-block;
     box-sizing: border-box;
     border: 10px solid black;
-    margin: 2%;
 }
 
 .div1 {
