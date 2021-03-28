@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+div {
+    width: 100%;
+    height: 100%;
+
+}
+
+.div1, .div2, .div3 {
+    font-size: 10px;
+    width: 40%;
+    height: 200px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 10px solid black;
+    margin: 2%;
+}
+
+.div1 {
+    background-color: blue;
+}
+
+.div2 {
+    background-color: brown;
+}
+
+.div3 {
+    width: 100%;
+    border: 5px solid green;
+    text-align: center;
+    padding: 50px 20%;
+    color: green;
+}
