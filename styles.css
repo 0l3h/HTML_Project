@@ -12,31 +12,36 @@ div {
     font-size: 10px;
     width: 40%;
     height: 200px;
-    display: inline-block;
     box-sizing: border-box;
-    border: 10px solid black;
 }
 
 .div1 {
-    background-color: blue;
+    width: 100%;
+    background-color: black;
+    display: inline-block;
 }
 
 .div2 {
-    background-color: brown;
+    width: 100%;
+    background-color: ;
 }
 
 .div3 {
     width: 100%;
-    border: 5px solid green;
     text-align: center;
     padding: 50px 20%;
-    color: green;
+    color: black;
 }
 
 .div4 {
     width: 100%;
     height: 100%;
-    background-image: url(https://www.fodors.com/wp-content/uploads/2019/11/space-hero-150x150.jpg);
-    background-size: cover;
-    background-size: 500px 500px;
+    background-image: url(./images/space.jpeg);
+    background-position-y: -80px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-size: 500px; 
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
 }
